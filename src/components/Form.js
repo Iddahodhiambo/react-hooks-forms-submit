@@ -42,7 +42,7 @@ function Form(props) {
       <input type="text" onChange={handleLastNameChange} value={lastName} />
       <button type="submit">Submit</button>
     </form>
-    <h2>My Records</h2>
+    <h2>Submissions</h2>
    {listOfSubmissions}
     </div>
   );
